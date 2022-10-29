@@ -550,10 +550,9 @@
 /obj/item/clothing/under/hazard
 	name = "hazard jumpsuit"
 	desc = "A high visibility jumpsuit made from heat and radiation resistant materials."
-	icon_state = "engine"
-	siemens_coefficient = 0.8
-	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 20, bio = 0)
-	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	icon_state = "hazard"
+	siemens_coefficient = 0.7
+	armor = list(melee = 0, bullet = 0, laser = 5,energy = 0, bomb = 5, bio = 0)
 
 /obj/item/clothing/under/sterile
 	name = "sterile jumpsuit"
